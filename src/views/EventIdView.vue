@@ -11,7 +11,7 @@
                             <div class="flex gap-6 mb-2">
                                 <div class="flex items-center gap-1.5">
                                     <img src="../assets/icons/calendar.svg">
-                                    <p>{{ eventDetails?.event?.time }}</p>
+                                    <p>{{ eventDetails?.event?.date }}</p>
                                 </div>
                                 <div class="flex items-center gap-1.5">
                                     <img src="../assets/icons/time.svg">

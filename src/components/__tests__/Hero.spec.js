@@ -6,12 +6,8 @@ import { vi } from 'vitest';
 import { describe, it, expect, test } from 'vitest'
 
 import { mount } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils';
 import Hero from '../Hero.vue'
-
- vi.mock('vue-router', () => ({
-  resolve: vi.fn(),
-}));
-
 
 describe('import vue components', () => {
   test('normal imports as expected', async()=>{
@@ -22,7 +18,7 @@ describe('import vue components', () => {
 
 describe('Hero', () => {
   it('should render correctly', () => {
-    const wrapper = mount(Hero)
-     expect(wrapper.html()).toContain("Ready to Rock? Discover the Hottest Events Here – YourCalendar's New Best Friend!")
+    const wrapper = shallowMount(Hero)
+     expect(wrapper.text()).toContain("Ready to Rock? Discover the Hottest Events Here – Your Calendar's New Best Friend!")
   })
 })

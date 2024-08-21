@@ -3,9 +3,8 @@
         <Navbar :single="false"/>
         <div class="mt-10 lg:mt-[298px] pb-20 flex flex-col lg:flex-row items-center justify-between">
             <h1 class="hidden lg:block text-[32px] font-sans text-white">Ready to Rock? Discover the <br></br> Hottest Events Here –
-                Your <br></br> Calendar's New Best Friend!</h1>
-            <h1 class="lg:hidden block text-center text-[32px] font-sans text-white my-4">Ready to Rock? Discover the Hottest Events Here –
-                    Your Calendar's New Best Friend!</h1>
+                Your <br></br> Calendar's New Best Friend!</h1> 
+            <h1 class="lg:hidden block text-center text-[32px] font-sans text-white my-4">Ready to Rock? Discover the Hottest Events Here – Your Calendar's New Best Friend!</h1>
             <div class="flex flex-col lg:flex-row items-center justify-center w-full lg:w-1/2 gap-3 bg-white p-6 rounded-[10px]">
                 <div class="relative pr-2 lg:border-r-2">
                     <input type="text" class="pl-8 py-4 w-full" placeholder="Search for an event">
