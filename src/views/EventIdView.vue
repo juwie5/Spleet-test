@@ -14,7 +14,7 @@
                                     <p>{{ eventDetails?.event?.date }}</p>
                                 </div>
                                 <div class="flex items-center gap-1.5">
-                                    <!-- <img src="../assets/icons/time.svg"> -->
+                                    <img src="../assets/icons/timer.svg">
                                     <p>{{ eventDetails?.event?.time}}</p>
                                 </div>
                             </div>
