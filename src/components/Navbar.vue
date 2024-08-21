@@ -9,7 +9,7 @@
          
         </div>
         <div class="flex items-center justify-center gap-6">
-          <RouterLink to="/" class="text-purple font-sans text-base">Discover</RouterLink>
+          <RouterLink to="/" class="text-purple font-sans text-base border-b-[2.5px] border-purple ">Discover</RouterLink>
           <RouterLink to="/" class="text-purple font-sans text-base">About us</RouterLink>
           <RouterLink to="/" class="text-purple font-sans  text-base">FAQs</RouterLink>
           <RouterLink  to="/" class="text-purple font-sans text-base">Contact us</RouterLink>
@@ -62,5 +62,10 @@ const showMobileNav = () => {
 </script>
 
 <style  scoped>
+
+/* a.router-link-exact-active {
+    border-bottom: 2.5px solid #432361;
+    padding-bottom: 3px;
+}  */
 
 </style>
