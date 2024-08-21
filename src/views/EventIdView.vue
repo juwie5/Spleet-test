@@ -11,11 +11,11 @@
                             <div class="flex gap-6 mb-2">
                                 <div class="flex items-center gap-1.5">
                                     <img src="../assets/icons/calendar.svg">
-                                    <p>{{ eventDetails?.event?.date}}</p>
+                                    <p>{{ eventDetails?.event?.time }}</p>
                                 </div>
                                 <div class="flex items-center gap-1.5">
                                     <img src="../assets/icons/time.svg">
-                                    <p>6PM</p>
+                                    <p>{{ eventDetails?.event?.time}}</p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-1.5 mb-2">
@@ -81,8 +81,8 @@ import Footer from '@/components/Footer.vue'
 import { useRoute } from 'vue-router';
 import { useSnackbar } from 'vue3-snackbar';
 import axios from 'axios';
-// import { format } from 'date-fns';
-import moment from "moment";
+
+
 
 
 const route = useRoute();
